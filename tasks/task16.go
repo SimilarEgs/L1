@@ -8,6 +8,8 @@ import (
 
 // Реализовать быструю сортировку массива (quicksort) встроенными методами языка.
 
+// O(log n) - сложность
+
 func init() {
 	rand.Seed(time.Now().UnixNano())
 }

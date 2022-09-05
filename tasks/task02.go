@@ -9,7 +9,7 @@ import (
 // и выведет их квадраты в stdout.
 
 func main() {
-
+						
 	numbers := []int{2, 4, 6, 8, 10}
 
 	wg := sync.WaitGroup{}

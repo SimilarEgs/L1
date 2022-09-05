@@ -28,4 +28,6 @@ func main() {
 	//     else  = 0
 
 	fmt.Printf("[Info] resualt of the program is - %s\n", bitVal)
+	res, _ := strconv.ParseInt(bitVal, 2, 64)
+	fmt.Printf("[Info] resualt of the program is - %d\n", res)
 }
